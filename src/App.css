@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  color: white;
+  background-color: #1b1b32;
+  font-family: Lato, sans-serif;
+  margin-top: 5px;
+}
+h1{
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+.App-tarea{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.logo-contenedor{
+  width: 100%;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  width: 400px;
+  height: 150px;
+}
+/* TAREA LISTA PRINCIPAL */
+.tarea-lista-principal{
+  width: 600px;
+  min-height: 500px;
+  background-color: #92929e;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+}
